@@ -18,5 +18,8 @@ I used this to make myself a graph, where edges are between sequences with only 
 ##### 3 Shortest path search!
 This is an exciting bit, I started at 4KEY, which is the structure code for the A82F/F87V mutant of P450 BM3. I have the [plasmid](https://en.wikipedia.org/wiki/Plasmid) containing this gene handy in the lab. I was opting for [site-directed mutagenesis](https://en.wikipedia.org/wiki/Site-directed_mutagenesis) to make my mutants  because it's cheap.
 
-I used the [networkx](https://networkx.github.io/) function networkx.algorithms.shortest_paths.generic.shortest_path, which uses Dijkstra's search as a default.
-![feraf](20181010-PathGraph (1).png)
+I used the [networkx](https://networkx.github.io/) function networkx.algorithms.shortest_paths.generic.shortest_path, which uses Dijkstra's search as a default. Now I had the shortest path from my mutant in the lab to some (but not all) of the P450s in the set. I never ended up making these, but it was a nice excuse to use Dijkstra in my work!
+![PathGraph](20181010-PathGraph.png)
+
+#### 4 
+At this stage I was in overkill mode, and tried to make an automated [primer](https://www.nature.com/scitable/definition/primer-305) design system. This code is a mess too so I'll talk you through what was in my head. LAter.
